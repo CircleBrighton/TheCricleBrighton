@@ -1,4 +1,4 @@
-<div class="navbar navbar-light navbar-toggleable-md hidden-md-up bg-faded">
+<nav class="navbar navbar-light navbar-toggleable-md bg-faded">
   <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -11,5 +11,12 @@
 			</li>
 			{% endfor %}
 		</ul>
-	</div>
-</div>
+    <ul class="navbar-nav">
+      {% for social in site.social %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{social.link}}"><i class="fa fa-{{social.text}}" aria-hidden="true"></i></a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
