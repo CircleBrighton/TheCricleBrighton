@@ -18,6 +18,10 @@ baseurl:          ''
 navigation:
 - text: About
   url: /about/
+- text: Mind
+  url: /mind/
+- text: Theatre
+  url: http://circleartscentre.com/
 
 # Author Details
 author:         'Parham Alvani'
