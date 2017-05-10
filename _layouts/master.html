@@ -2,11 +2,13 @@
 <html>
 {% include head.html %}
 <body>
-{% include menu.html %}
-<div id="main">
-  <div class="row">
-    <div class="col">
-      {{ content }}
+<div class="container" style="padding-top: 40px">
+  {% include menu.html %}
+  <div id="main">
+    <div class="row">
+      <div class="col">
+        {{ content }}
+      </div>
     </div>
   </div>
 </div>
