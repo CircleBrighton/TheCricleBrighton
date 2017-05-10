@@ -1,0 +1,35 @@
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: rouge
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+
+# Setup
+title:            'The Circle Brighton'
+username:         'CircleBrighton'
+tagline:          'The Circle Brighton'
+description:      'The Circle Brighton'
+url:              'https://circlebrighton.github.io/TheCricleBrighton/'
+baseurl:          ''
+
+# Navigation
+navigation:
+- text: About
+  url: /about/
+
+# Author Details
+author:         'Parham Alvani'
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.7.9
+
+# Gems
+gems:
+  - jekyll-paginate
