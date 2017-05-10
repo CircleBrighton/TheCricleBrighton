@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
-	{% include head.html %}
-	<body>
-		{% include mobilemenu.html %}
-		{{ content }}
-	</body>
+{% include head.html %}
+<body>
+{% include menu.html %}
+<div id="main">
+  <div class="row">
+    <div class="col">
+      {{ content }}
+    </div>
+  </div>
+</div>
+</body>
 </html>
