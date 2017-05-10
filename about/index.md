@@ -1,5 +1,5 @@
 ---
-layout: master
+layout: page
 title: About
 description: we are what we think, do and eat.
 ---
