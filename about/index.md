@@ -4,6 +4,8 @@ title: About
 description: we are what we think, do and eat.
 images:
   - about-1.jpg
+  - about-2.jpg
+  - about-3.jpg
 ---
 
 We believe that we are what we think, do and eat. We help our members and the community to
