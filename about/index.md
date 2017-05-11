@@ -2,7 +2,6 @@
 layout: page
 title: About
 description: we are what we think, do and eat.
-toc: true
 thumbnail: about-front.jpg
 images:
   - about-1.jpg
