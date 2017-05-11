@@ -28,9 +28,6 @@ layout: master
         {{content}}
       </div>
       <div class="col">
-        <div>
-          <h3>Quick Links: </h3>
-        </div>
         {% for image in page.images %}
           <img class="img-thumbnail" src="{{'assets/img/' | append: image | absolute_url}}">
         {% endfor %}
