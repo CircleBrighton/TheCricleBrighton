@@ -31,14 +31,5 @@ social:
   - text: instagram
     link: https://www.instagram.com/
 
-# Blog Configurations
-paginate: 10 # Posts per page on the blog index
-paginate_path: '/blog/page:num'
-destination: ./_site
-
 # Custom vars
 version:          0.7.9
-
-# Gems
-gems:
-  - jekyll-paginate
