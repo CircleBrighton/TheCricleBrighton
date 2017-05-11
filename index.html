@@ -10,13 +10,13 @@ title: Home
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="..." alt="First slide">
+      <img class="d-block img-fluid" src="{{'/assets/img/slide-1.jpg' | relative_url}}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="..." alt="Second slide">
+      <img class="d-block img-fluid" src="{{'/assets/img/slide-2.jpg' | relative_url}}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="..." alt="Third slide">
+      <img class="d-block img-fluid" src="{{'/assets/img/slide-3.jpg' | relative_url}}" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,7 +52,7 @@ title: Home
 <div class="card-deck mb-2">
     <div class="card border-0">
         <img class="rounded-circle w-100"
-          src="{{'assets/img/mind.jpg' | absolute_url}}">
+          src="{{'/assets/img/mind.jpg' | relative_url}}">
         <div class="card-block">
             <h4 class="card-title">Mind</h4>
             <p class="card-text">
@@ -63,7 +63,7 @@ title: Home
     </div>
     <div class="card border-0">
         <img class="rounded-circle w-100"
-          src="{{'assets/img/body.jpg' | absolute_url}}">
+          src="{{'/assets/img/body.jpg' | relative_url}}">
          <div class="card-block">
             <h4 class="card-title">Body</h4>
             <p class="card-text">
@@ -74,7 +74,7 @@ title: Home
     </div>
     <div class="card border-0">
         <img class="rounded-circle w-100"
-          src="{{'assets/img/nutrition.jpg' | absolute_url}}">
+          src="{{'/assets/img/nutrition.jpg' | relative_url}}">
          <div class="card-block">
             <h4 class="card-title">Nutrition</h4>
             <p class="card-text">
