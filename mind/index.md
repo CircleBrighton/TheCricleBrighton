@@ -2,6 +2,7 @@
 layout: page
 title: Mind
 description: Everything starts with a thought
+thumbnail: mind-front.jpg
 ---
 
 We all have thoughts and beliefs, conscious and subconscious; – some are more deeply ingrained than others, however, they all produce the cocktail of hormones to which we are addicted.
