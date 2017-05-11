@@ -28,19 +28,9 @@ layout: master
         {{content}}
       </div>
       <div class="col">
-        <div class="bg-info">
+        <div>
           <h3>Quick Links: </h3>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-            <a class="nav-link" href="#">Link-1</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Link-2</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Link-3</a>
-            </li>
-          </ul>
+          {{content | toc}}
         </div>
         {% for image in page.images %}
           <img class="img-thumbnail" src="{{'assets/img/' | append: image | absolute_url}}">
