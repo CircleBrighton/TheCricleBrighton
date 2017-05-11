@@ -17,7 +17,7 @@ layout: master
     </ul>
   </div>
   <div class="col-10">
-    <div class="jumbotron jumbotron-fluid" style="background-image: url({{'assets/img/' | append: page.thumbnail | absolute_url}});">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url({{'/assets/img/' | append: page.thumbnail | relative_url}});">
       <div class="container">
         <h1 class="display-3 text-white">{{page.title}}</h1>
         <p class="lead text-white">{{page.description}}</p>
@@ -29,7 +29,7 @@ layout: master
       </div>
       <div class="col">
         {% for image in page.images %}
-          <img class="img-thumbnail" src="{{'assets/img/' | append: image | absolute_url}}">
+          <img class="img-thumbnail" src="{{'/assets/img/' | append: image | relative_url}}">
         {% endfor %}
       </div>
     </div>
