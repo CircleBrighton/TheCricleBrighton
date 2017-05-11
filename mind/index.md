@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mind
+toc: true
 description: Everything starts with a thought
 thumbnail: mind-front.jpg
 ---
