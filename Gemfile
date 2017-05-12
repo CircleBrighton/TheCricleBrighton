@@ -1,4 +1,4 @@
 gem jekyll
-grop :test do
+group :test do
   gem html_proofer
 end
